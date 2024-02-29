@@ -1,0 +1,90 @@
+/* Base styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* Layout */
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+/* Header */
+header {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* Workout form */
+.workout-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.workout-form input {
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  flex-grow: 1;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.workout-form input:focus {
+  border-color: #007bff;
+}
+
+.workout-form button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.workout-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Workout list */
+.list-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+  background-color: #f5f5f5;
+}
+
+.badge {
+  background-color: #007bff;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
