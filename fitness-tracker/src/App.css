@@ -25,28 +25,23 @@ header {
   color: #007bff;
 }
 
-/* Workout form */
-.workout-form {
+.my-4 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
   margin-bottom: 20px;
+  text-align: center;
 }
 
-.workout-form input {
+.my-4 input {
   padding: 12px;
   border: 1px solid #ced4da;
   border-radius: 6px;
   margin-bottom: 12px;
-  flex-grow: 1;
+  width: 70%;
   transition: border-color 0.3s ease-in-out;
 }
 
-.workout-form input:focus {
-  border-color: #007bff;
-}
-
-.workout-form button {
+.my-4 button {
   padding: 12px 24px;
   border: none;
   border-radius: 6px;
@@ -54,15 +49,17 @@ header {
   color: #ffffff;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
+  width: 100%;
+  margin-top: 12px;
 }
 
-.workout-form button:hover {
+.my-4 button:hover {
   background-color: #0056b3;
 }
 
 /* Workout list */
 .list-group {
-  width: 100%;
+  width: 90%;
   margin-bottom: 20px;
 }
 

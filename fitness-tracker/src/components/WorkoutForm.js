@@ -29,7 +29,8 @@ const WorkoutForm = ({ onLogWorkout }) => {
         }
         className="form-control mr-2"
         required
-      />
+      />{" "}
+      <br />
       <input
         type="number"
         placeholder="Duration (minutes)"
@@ -37,7 +38,8 @@ const WorkoutForm = ({ onLogWorkout }) => {
         onChange={(e) => setWorkout({ ...workout, duration: e.target.value })}
         className="form-control mr-2"
         required
-      />
+      />{" "}
+      <br />
       <input
         type="number"
         placeholder="Sets"
@@ -46,6 +48,7 @@ const WorkoutForm = ({ onLogWorkout }) => {
         className="form-control mr-2"
         required
       />
+      <br />
       <input
         type="number"
         placeholder="Reps per set"
@@ -54,7 +57,8 @@ const WorkoutForm = ({ onLogWorkout }) => {
         className="form-control mr-2"
         required
       />
-      <button onClick={handleLogWorkout} className="btn btn-primary">
+      <br />
+      <button onClick={handleLogWorkout} className="btn-btn-primary">
         Log Workout
       </button>
     </div>
